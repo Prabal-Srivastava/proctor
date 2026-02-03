@@ -4,7 +4,7 @@ pipeline {
     // Define tools if you have them configured in Jenkins -> Global Tool Configuration
     // Otherwise, we will use the Maven Wrapper (mvnw) included in the project
     tools { 
-        jdk 'jdk21' 
+        jdk 'jdk-21'
         // maven 'Maven4' // Commented out to prefer ./mvnw for portability
     }
 
